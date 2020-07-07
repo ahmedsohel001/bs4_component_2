@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Class Project</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="scrollspy">
+        <div class="container">
+                    <a href="#" class="navbar-brand">SA Acadamy</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#service" class="nav-link">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </nav>
+
+    <div class="container" data-target="#scrollspy">
+        <div class="home" id="home">
+            <h1 class="text-center text-dark">Home</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore atque fugiat nihil necessitatibus iusto, ullam eum labore sequi doloribus, temporibus deserunt aut consequatur quos earum cupiditate distinctio quaerat, dolore ex, iure reprehenderit! Repellat ex officia aliquid nostrum at odio assumenda exercitationem nobis, alias labore facilis quisquam ut, voluptate ratione eius autem sit quod inventore sequi. Nulla fuga repudiandae autem molestias quos natus, ullam ipsam veritatis voluptas maiores animi. Magnam blanditiis error animi eius architecto provident, nisi iusto vitae. Cumque dolores, dolor, ipsam nihil veniam nam earum obcaecati beatae est suscipit debitis! Suscipit sunt cupiditate quam modi dolore repudiandae necessitatibus, error.</p>
+        </div>
+        <div class="service" id="service">
+            <h1 class="text-center text-primary">Service</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore atque fugiat nihil necessitatibus iusto, ullam eum labore sequi doloribus, temporibus deserunt aut consequatur quos earum cupiditate distinctio quaerat, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nam ex et, cupiditate eveniet rem dolorem adipisci maiores culpa officia non sint perspiciatis fugit doloremque mollitia dolore molestiae saepe? Magni, delectus repellendus, consectetur omnis deserunt deleniti praesentium tempore, dolorum nam, modi earum. Fuga blanditiis nulla similique, quo cupiditate nihil, repellat. dolore ex, iure reprehenderit! Repellat ex officia aliquid nostrum at odio assumenda exercitationem nobis, alias labore facilis quisquam ut, voluptate ratione eius autem sit quod inventore sequi. Nulla fuga repudiandae autem molestias quos natus, ullam ipsam veritatis voluptas maiores animi. Magnam blanditiis error animi eius architecto provident, nisi iusto vitae. Cumque dolores, dolor, ipsam nihil veniam nam earum obcaecati beatae est suscipit debitis! Suscipit sunt cupiditate quam modi dolore repudiandae necessitatibus, error.</p>
+        </div>
+        <div class="about" id="about">
+            <h1 class="text-center text-success">About</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore atque fugiat nihil necessitatibus iusto, ullam eum labore sequi doloribus, temporibus deserunt aut consequatur quos earum cupiditate distinctio quaerat, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nam ex et, cupiditate eveniet rem dolorem adipisci maiores culpa officia non sint perspiciatis fugit doloremque mollitia dolore molestiae saepe? Magni, delectus repellendus, consectetur omnis deserunt deleniti praesentium tempore, dolorum nam, modi earum. Fuga blanditiis nulla similique, quo cupiditate nihil, repellat. dolore ex, iure reprehenderit! Repellat ex officia aliquid nostrum at odio assumenda exercitationem nobis, alias labore facilis quisquam ut, voluptate ratione eius autem sit quod inventore sequi. Nulla fuga repudiandae au</p>
+        </div>
+        <div class="contact" id="contact">
+            <h1 class="text-center text-info">Contact</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore atque fugiat nihil necessitatibus iusto, ullam eum labore sequi doloribus, temporibus deserunt aut consequatur quos earum cupiditate distinctio quaerat, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nam ex et, cupiditate eveniet rem dolorem adipisci maiores culpa officia non sint perspiciatis fugit doloremque mollitia dolore molestiae saepe? Magni, delectus repellendus, consectetur omnis deserunt deleniti praesentium tempore, dolorum nam, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam in cumque blanditiis veniam corporis minima porro eligendi nesciunt, animi aliquam. modi earum. Fuga blanditiis nulla similique, quo cupiditate nihil, repellat. dolore ex, iure reprehenderit! Repellat ex officia aliquid nostrum at odio assumenda exercitationem nobis, alias labore facilis quisquam ut, voluptate ratione eius autem sit quod inventore sequi. Nulla fuga repudiandae au</p>
+        </div>
+    </div>
+
+    <section class="custom-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-10">
+                    <!-- SLIDER START -->
+                    <div class="carousel slide custom-carousel" id="custom_slider" data-ride="slide">
+                        <!-- CAROUSEL INDICATOR START -->
+                        <ul class="carousel-indicators custom-indicator">
+                            <li data-target="#custom_slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#custom_slider" data-slide-to="1"></li>
+                            <li data-target="#custom_slider" data-slide-to="2"></li>
+                            <li data-target="#custom_slider" data-slide-to="3"></li>
+                        </ul>
+                        <!-- CAROUSEL INDICATOR END -->
+
+                        <!-- CAROUSER INNER START -->
+                        <div class="carousel-inner">
+                        <!-- CAROUSEL ITEMS START -->
+                        <div class="carousel-item active">
+                            <div class="slider-content">
+                                <h1>Lorem ipsum dolor sit amet.</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugiat eligendi, nam aut sequi sed id alias et ex corrupti, sint perspiciatis illo quis explicabo, a adipisci deserunt animi numquam!</p>
+                                <button class="btn btn-outline-dark btn-block">Click</button>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEMS START -->
+                        <!-- CAROUSEL ITEMS START -->
+                        <div class="carousel-item">
+                            <div class="slider-content">
+                                <h1>Lorem ipsum dolor sit amet.</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugiat eligendi, nam aut sequi sed id alias et ex corrupti, sint perspiciatis illo quis explicabo, a adipisci deserunt animi numquam!</p>
+                                <button class="btn btn-outline-dark btn-block">Click</button>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEMS START -->
+                        <!-- CAROUSEL ITEMS START -->
+                        <div class="carousel-item">
+                            <div class="slider-content">
+                                <h1>Lorem ipsum dolor sit amet.</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugiat eligendi, nam aut sequi sed id alias et ex corrupti, sint perspiciatis illo quis explicabo, a adipisci deserunt animi numquam!</p>
+                                <button class="btn btn-outline-dark btn-block">Click</button>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEMS START -->
+                        <!-- CAROUSEL ITEMS START -->
+                        <div class="carousel-item">
+                            <div class="slider-content">
+                                <h1>Lorem ipsum dolor sit amet.</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugiat eligendi, nam aut sequi sed id alias et ex corrupti, sint perspiciatis illo quis explicabo, a adipisci deserunt animi numquam!</p>
+                                <button class="btn btn-outline-dark btn-block">Click</button>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEMS START -->
+                        </div>
+                        <!-- CAROUSER INNER END -->
+
+                        <!-- CAROUSEL CONTROL START -->
+                        <a href="#custom_slider" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#custom_slider" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        <!-- CAROUSEL CONTROL START -->
+                    </div>
+                    <!-- SLIDER END -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                
+                <button type="button" class="btn btn-primary" data-toggle="toast" data-target="#mytoast">
+                    Single toggle
+                </button>
+
+                <div class="toast" id="mytoast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="images/image2.jpg" alt="" class="rounded mr-2">
+                        <strong class="mr-auto">Bootstrap</strong>
+                        <small class="text-muted">Just Now</small>
+                        <button type="button" class="close" data-dismiss="toast" aria-label="close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 bg-dark">
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header">
+                    <img src="..." class="rounded mr-2" alt="...">
+                    <strong class="mr-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="toast-body">
+                    Hello, world! This is a toast message.
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <nav class="bd-example">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-6">
+                <div class="bd-example">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown">Service</a>
+                            
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Graphic Design</a>
+                                <a href="#" class="dropdown-item">Web Design</a>
+                                <a href="#" class="dropdown-item">Web Development</a>
+                                <a href="#" class="dropdown-item">Digital Marketing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <nav class="bd-example">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link" data-toggle="tab">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" data-toggle="tab">About</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="home">
+                            <h3 class="text-capitalize text-center text-danger">#Home</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit error dignissimos repellendus, et praesentium sint ullam quam voluptas architecto deleniti dolores, officiis exercitationem, voluptatum ipsam non. Modi dolorum, sequi iusto.</p>
+                        </div>
+                        <div class="tab-pane" id="service">
+                            <h3 class="text-capitalize text-center text-warning">#Service</h3>
+                            <p class="lead">Consectetur adipisicing elit. Sit error dignissimos repellendus, et praesentium sint ullam quam voluptas architecto deleniti dolores, officiis exercitationem, voluptatum ipsam non. Modi dolorum, sequi iusto.</p>
+                        </div>
+                        <div class="tab-pane" id="about">
+                            <h3 class="text-capitalize text-center text-success">#About</h3>
+                            <p class="lead">Sit error dignissimos repellendus, et praesentium sint ullam quam voluptas architecto deleniti dolores, officiis exercitationem, voluptatum ipsam non. Modi dolorum, sequi iusto.</p>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="This is Tooltip Title">Hover</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">List Group Item-1</li>
+                    <li class="list-group-item">List Group Item-2</li>
+                    <li class="list-group-item">List Group Item-3</li>
+                    <li class="list-group-item">List Group Item-4</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">List Group Item-1</li>
+                    <li class="list-group-item">List Group Item-2</li>
+                    <li class="list-group-item">List Group Item-3</li>
+                    <li class="list-group-item">List Group Item-4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-8">
+                <div class="media">
+                    <img src="images/image1.jpg" alt="" class="align-self-center" width="100px">
+                    <div class="media-body ml-3">
+                        <h3>This is heading three</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta itaque ad natus perspiciatis eum eos quibusdam, odit id pariatur repudiandae ipsum, nostrum nisi laboriosam ex quas eius totam excepturi debitis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">
+                    Single toggle
+                </button>
+
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Spacial Offer</h3>
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sapiente!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success d-block mx-auto">Get It</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#myaccordion1" data-toggle="collapse">
+                                <h3>Accordion #1</h3>
+                            </a>
+                        </div>
+                        <div class="collapse" id="myaccordion1">
+                            <div class="card-body">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae suscipit maxime amet, nostrum repudiandae quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#myaccordion2" data-toggle="collapse">
+                                <h3>Accordion #2</h3>
+                            </a>
+                        </div>
+                        <div class="collapse" id="myaccordion2">
+                            <div class="card-body">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae suscipit maxime amet, nostrum repudiandae quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#myaccordion3" data-toggle="collapse">
+                                <h3>Accordion #3</h3>
+                            </a>
+                        </div>
+                        <div class="collapse" id="myaccordion3">
+                            <div class="card-body">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae suscipit maxime amet, nostrum repudiandae quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my5">
+            <div class="col-6">
+                <div class="box shadow">
+                    <ul class="pagination custom-position">
+                        <li class="page-item">
+                            <a href="#" class="page-link">Prev</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">Next</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box shadow">
+                    <ul class="pagination custom-position">
+                        <li class="page-item">
+                            <a href="#" class="page-link">
+                                <span>&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">
+                                <span>&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                <button type="button" class="btn btn-danger" data-toggle="popover" title="This is title" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatem.">Click</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet.">Popovers On Top</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet.">Popovers On Bottom</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="left" data-content="Lorem ipsum dolor sit amet.">Popovers On Left</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet.">Popovers On Right</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                  Popover on left
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25">
+                        25%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="spinner text-center">
+                    <div class="spinner-border text-primary">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-secondary">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-success">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-warning">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-danger">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-info">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-light">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-border text-dark">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="spinner text-center">
+                    <div class="spinner-grow text-primary">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-secondary">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-success">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-warning">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-danger">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-info">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-light">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-dark">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JS LINK-->
+    <script src="js/jquery3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

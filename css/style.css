@@ -1,0 +1,54 @@
+.box{
+	min-height: 300px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.custom-position{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%);
+}
+
+.home,
+.service,
+.about,
+.contact {
+	min-height: 500px;
+	padding-top: 110px;
+}
+.spinner {
+	background-color: #ddd;
+}
+.custom-slider {
+	background-image: url(../images/bg-cover.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.slider-content {
+	background-color: rgba(0,0,0,.3);
+	color: #fff;
+	padding: 3em 4.5em;
+}
+.slider-content h1 {
+	font-size: 31px;
+	margin-bottom: 10px;
+}
+.slider-content p {
+	font-size: 18px;
+}
+.slider-content button {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.custom-indicator li {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.5);
+}
+.custom-indicator .active {
+	background-color: #fff;
+}
